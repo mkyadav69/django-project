@@ -35,6 +35,7 @@ from django.contrib import admin
 from django.urls import path, include # new
 
 urlpatterns = [
+    path('adminManoj/', include('myProfile.admin_urls')), # new
     path('admin/', admin.site.urls),
-    path('', include('myProfile.urls')), # new
+    path('', include('myProfile.web_urls')), # new
 ]
