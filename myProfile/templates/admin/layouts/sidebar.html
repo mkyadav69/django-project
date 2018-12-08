@@ -5,26 +5,26 @@
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav" class="p-t-30">
 
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{% url 'adminManoj' %}" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
 
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="charts.html" aria-expanded="false"><i class="mdi mdi-account"></i><span class="hide-menu">About Me</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{% url 'about' %}" aria-expanded="false"><i class="mdi mdi-account"></i><span class="hide-menu">About Me</span></a></li>
 
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="widgets.html" aria-expanded="false"><i class="mdi mdi-briefcase"></i><span class="hide-menu">Works</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{% url 'work' %}" aria-expanded="false"><i class="mdi mdi-briefcase"></i><span class="hide-menu">Works</span></a></li>
 
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="tables.html" aria-expanded="false"><i class="mdi mdi-library"></i><span class="hide-menu">Educations</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{% url 'education' %}" aria-expanded="false"><i class="mdi mdi-library"></i><span class="hide-menu">Educations</span></a></li>
 
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="grid.html" aria-expanded="false"><i class="mdi mdi-calendar-check"></i><span class="hide-menu">Experiences</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{% url 'experience' %}" aria-expanded="false"><i class="mdi mdi-calendar-check"></i><span class="hide-menu">Experiences</span></a></li>
 
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="grid.html" aria-expanded="false"><i class="mdi mdi-buffer"></i><span class="hide-menu">Skills</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{% url 'skill' %}" aria-expanded="false"><i class="mdi mdi-buffer"></i><span class="hide-menu">Skills</span></a></li>
 
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="grid.html" aria-expanded="false"><i class="mdi mdi-forum"></i><span class="hide-menu">Blogs</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="blog" aria-expanded="false"><i class="mdi mdi-forum"></i><span class="hide-menu">Blogs</span></a></li>
 
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="grid.html" aria-expanded="false"><i class="mdi mdi-library-plus"></i><span class="hide-menu">Projects</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{% url 'project' %}" aria-expanded="false"><i class="mdi mdi-library-plus"></i><span class="hide-menu">Projects</span></a></li>
 
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-bookmark-music"></i><span class="hide-menu">Songs & Videos</span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
-                                <li class="sidebar-item"><a href="form-basic.html" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Form Basic </span></a></li>
-                                <li class="sidebar-item"><a href="form-wizard.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Form Wizard </span></a></li>
+                                <li class="sidebar-item"><a href="{% url 'song' %}" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Songs </span></a></li>
+                                <li class="sidebar-item"><a href="{% url 'video' %}" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Videos</span></a></li>
                             </ul>
                         </li>
 
